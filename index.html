@@ -3,46 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Kineta Valerie Wibisono</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            color: #222;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .profile {
+            margin-bottom: 30px;
+        }
+
+        .profile-image {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            background: #e5e5e5;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+            font-size: 14px;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        .role {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .bio {
+            color: #555;
+            line-height: 1.6;
+            font-size: 14px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .link {
+            display: block;
+            padding: 15px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #222;
+            font-size: 15px;
+            transition: 0.2s;
+        }
+
+        .link:hover {
+            background: #222;
+            color: white;
+            border-color: #222;
+        }
+
+        footer {
+            margin-top: 35px;
+            color: #999;
+            font-size: 12px;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>Kineta Valerie Wibisono</h1>
+    <div class="container">
 
-    <p>Cyber Security Student</p>
+        <div class="profile">
 
-    <p>
-        Welcome to my personal portfolio.
-    </p>
+            <div class="profile-image">
+                Photo
+            </div>
 
-    <hr>
+            <h1>Kineta Valerie Wibisono</h1>
 
-    <h2>My Links</h2>
+            <p class="role">
+                Cyber Security Student
+            </p>
 
-    <p>
-        <a href="https://www.linkedin.com/" target="_blank">
-            LinkedIn
-        </a>
-    </p>
+            <p class="bio">
+                Interested in cybersecurity, GRC, and technology.
+                Welcome to my personal portfolio.
+            </p>
 
-    <p>
-        <a href="https://github.com/" target="_blank">
-            GitHub
-        </a>
-    </p>
+        </div>
 
-    <p>
-        <a href="#" target="_blank">
-            My CV
-        </a>
-    </p>
+        <div class="links">
 
-    <p>
-        <a href="#" target="_blank">
-            My Projects
-        </a>
-    </p>
+            <a class="link"
+               href="https://www.linkedin.com/"
+               target="_blank">
+                LinkedIn
+            </a>
+
+            <a class="link"
+               href="https://github.com/"
+               target="_blank">
+                GitHub
+            </a>
+
+            <a class="link"
+               href="#"
+               target="_blank">
+                Download My CV
+            </a>
+
+            <a class="link"
+               href="#"
+               target="_blank">
+                My Projects
+            </a>
+
+            <a class="link"
+               href="#"
+               target="_blank">
+                Certificates
+            </a>
+
+        </div>
+
+        <footer>
+            © 2026 Kineta Valerie Wibisono
+        </footer>
+
+    </div>
 
 </body>
 </html>
